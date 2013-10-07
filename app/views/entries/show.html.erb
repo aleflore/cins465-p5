@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Fname:</strong>
+  <%= @entry.fname %>
+</p>
+
+<p>
+  <strong>Lname:</strong>
+  <%= @entry.lname %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @entry.email %>
+</p>
+
+<p>
+  <strong>Zip:</strong>
+  <%= @entry.zip %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @entry.color %>
+</p>
+
+<%= link_to 'Edit', edit_entry_path(@entry) %> |
+<%= link_to 'Back', entries_path %>

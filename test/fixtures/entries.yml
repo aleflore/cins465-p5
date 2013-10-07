@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  fname: MyText
+  lname: MyText
+  email: MyString
+  zip: 1
+  color: MyText
+
+two:
+  fname: MyText
+  lname: MyText
+  email: MyString
+  zip: 1
+  color: MyText
